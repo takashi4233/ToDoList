@@ -1,5 +1,8 @@
 var tasklist = [];
 
+/* uniqId:はautoincrementするIDの最大値を保存 */
+
+
 $(function(){
 		function init(){
 			if (!localStorage.getItem('uniqId')) {
